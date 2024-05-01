@@ -1,3 +1,2 @@
 <?php 
-require 'views/admin.view.php';
-?>
+view("admin.view.php");

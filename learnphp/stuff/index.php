@@ -6,4 +6,3 @@ if ($uri === '/learnphp') {
     require 'C:\laragon\www\learnphp\controllers\index.php';
 }
 
-?>

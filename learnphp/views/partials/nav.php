@@ -7,13 +7,16 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class= <?= urlIs ('/learnphp') ? "nav-link active" : "nav link"; ?> href="/learnphp">Home</a>
+                <a class= "<?= urlIs('/') ? "nav-link active" : "nav-link";?>" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class=<?php urlIs('/learnphp/about.php') ? "nav-link active" : "nav link"; ?> href="/learnphp/about.php">About</a>
+                <a class="<?= urlIs('/about') ? "nav-link active" : "nav-link";?>" href="/about">About</a>
               </li>
               <li class="nav-item">
-                <a class=<?php urlIs ('/learnphp/admin.php') ? "nav-link active" : "nav link"; ?> href="/learnphp/admin.php">Admin</a>
+                <a class="<?= urlIs('/admin') ? "nav-link active" : "nav-link";?>" href="/admin">Admin</a>
+              </li>
+              <li class="nav-item">
+                <a class="<?= urlIs('/notes') ? "nav-link active" : "nav-link";?>" href="/notes">Notes</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

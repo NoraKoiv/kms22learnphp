@@ -1,13 +1,4 @@
 <?php 
 
-function dd ($value) {
-echo "<pre>";
-var_dump($value);
-echo "</pre>";
-die ();
-}
+view("index.view.php");
 
-
-
-require 'views/index.view.php'; 
-?>
